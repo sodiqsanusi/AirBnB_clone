@@ -1,0 +1,52 @@
+.filters {
+        background-color: white;
+        height: 70px;
+        width: 100%;
+        border: 1px solid #dddddd;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        position: relative;
+}
+
+.filters button{
+        font-size: 18px;
+        background-color: #ff5a5f;
+        color: #ffffff;
+        height: 48px;
+        width: 20%;
+        border: none;
+        border-radius: 4px;
+        position: absolute;
+        right: 30px;
+        cursor: pointer;
+}
+.filters button:hover, .filters button:focus {
+        opacity: 90%;
+}
+
+.filters > div * {
+        margin: 0;
+        padding-left: 20%;
+}
+
+.filters > div {
+        width: 25%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+}
+
+.filters > div:first-of-type {
+        border-right: 1px solid #dddddd;
+}
+
+.filters > div h3 {
+        font-weight: 600;
+}
+
+.filters > div h4 {
+        font-weight: 400;
+        font-size: 14px;
+}
